@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140">
+  <!-- drop outline -->
+  <g>
+    <!-- body shadow outline -->
+    <path d="M60 36 C36 36 18 52 14 80 C10 108 30 130 60 130 C90 130 110 108 106 80 C102 52 84 36 60 36 Z" fill="#241047"/>
+    <!-- body base -->
+    <path d="M60 40 C39 40 23 54 19 80 C15 106 33 126 60 126 C87 126 105 106 101 80 C97 54 81 40 60 40 Z" fill="#6a3fb5"/>
+    <!-- highlight (upper-left) -->
+    <path d="M60 40 C45 40 32 50 26 66 C34 58 48 52 60 52 C66 52 70 50 70 46 C68 42 64 40 60 40 Z" fill="#8a5fe0"/>
+    <path d="M24 72 C22 84 24 98 32 108 C26 96 28 82 34 72 Z" fill="#8a5fe0" opacity=".7"/>
+    <!-- shadow (lower-right) -->
+    <path d="M101 80 C103 98 92 116 72 123 C90 118 98 102 96 84 Z" fill="#4a2a8c"/>
+    <path d="M60 126 C74 126 88 120 95 108 C90 120 76 124 60 124 C44 124 30 120 25 108 C32 120 46 126 60 126 Z" fill="#3a1f72"/>
+  </g>
+
+  <!-- neck / gathered fabric -->
+  <path d="M44 46 L48 26 L72 26 L76 46 Z" fill="#5b3a9c"/>
+  <path d="M55 46 L55 28 L57 28 L57 46 Z" fill="#43286f"/>
+  <path d="M64 46 L64 28 L66 28 L66 46 Z" fill="#43286f"/>
+  <!-- ragged opening -->
+  <path d="M48 28 L44 10 L52 20 L56 8 L60 18 L64 8 L68 20 L72 12 L74 28 Z" fill="#4a2a8c"/>
+  <path d="M52 20 L56 8 L60 18 Z" fill="#6a3fb5"/>
+  <path d="M64 8 L68 20 L60 18 Z" fill="#6a3fb5"/>
+
+  <!-- green drawstring -->
+  <path d="M42 24 Q60 18 78 24 Q80 30 78 34 Q60 28 42 34 Q40 30 42 24 Z" fill="#5f8f24"/>
+  <path d="M42 24 Q60 18 78 24 Q60 22 42 26 Z" fill="#a3d72a"/>
+  <rect x="56" y="22" width="8" height="12" rx="2" fill="#6aa12a"/>
+  <rect x="58" y="24" width="3" height="8" fill="#a3d72a"/>
+  <!-- string ends -->
+  <path d="M50 33 q-6 6 -3 13 l3 -1 q-2 -6 3 -10 z" fill="#5f8f24"/>
+  <path d="M70 33 q6 6 3 13 l-3 -1 q2 -6 -3 -10 z" fill="#5f8f24"/>
+
+  <!-- white question mark -->
+  <g>
+    <path d="M45 70 q0 -16 16 -16 q16 0 16 15 q0 9 -10 14 q-6 3 -6 10 l-11 0 q0 -10 7 -14 q8 -4 8 -10 q0 -5 -5 -5 q-5 0 -5 6 z" fill="#1c1233"/>
+    <path d="M47 69 q0 -13 14 -13 q14 0 14 13 q0 8 -9 12 q-6 3 -6 10 l-8 0 q0 -8 6 -12 q8 -4 8 -10 q0 -6 -6 -6 q-7 0 -7 8 z" fill="#f4f0ff"/>
+    <rect x="50" y="98" width="11" height="11" rx="2" fill="#1c1233"/>
+    <rect x="51" y="99" width="9" height="9" rx="2" fill="#f4f0ff"/>
+  </g>
+</svg>
